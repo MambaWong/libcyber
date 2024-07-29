@@ -15,9 +15,6 @@ git clone --single-branch --branch main https://github.com/MambaWong/libcyber.gi
 #### external libs
 
 - fasrrtps & fastcdr
-- gflags & glog & gtest
-- tinyxml2
-- libuuid
 - ncurses
 
 #### cyber
@@ -46,10 +43,6 @@ mkdir ${CYBER_INSTALL_PREFIX}/cyber/lib/external
 
 cp ${CYBER_SYSROOT_DIR}/lib/libfastrtps.so.1 ${CYBER_SYSROOT_DIR}/lib/libfastcdr.so.1 ${CYBER_INSTALL_PREFIX}/cyber/lib/external
 cp ${CYBER_SYSROOT_DIR}/lib/libncurses.so.6 ${CYBER_INSTALL_PREFIX}/cyber/lib/external
-cp ${CYBER_SYSROOT_DIR}/lib/libgflags.so.2.2 ${CYBER_INSTALL_PREFIX}/cyber/lib/external
-cp ${CYBER_SYSROOT_DIR}/lib/libtinyxml2.so.10 ${CYBER_INSTALL_PREFIX}/cyber/lib/external
-cp ${CYBER_SYSROOT_DIR}/lib/libuuid.so.1 ${CYBER_INSTALL_PREFIX}/cyber/lib/external
-cp ${CYBER_SYSROOT_DIR}/lib/libglog.so.0 ${CYBER_INSTALL_PREFIX}/cyber/lib/external
 ```
 
 ## Examples
