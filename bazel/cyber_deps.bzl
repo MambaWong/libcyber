@@ -41,7 +41,7 @@ def cyber_deps():
 
     if not native.existing_rule("ncurses"):
         native.new_local_repository(
-            name = "ncurses5",
+            name = "ncurses",
             path = "/opt/cyber/sysroot/",
             build_file = "//bazel/third_party:ncurses.BUILD",
         )

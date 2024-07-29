@@ -23,7 +23,7 @@ apollo_cc_binary(
     linkopts = ["-pthread"],
     deps = [
         "//cyber",
-        "@ncurses5",
+        "@ncurses",
     ],
 )
 
