@@ -32,6 +32,8 @@ Set `CYBER_INSTALL_PREFIX` as the installation directory for cyber.
 
 ```bash
 bazel run --platforms=@gcc_toolchain//platforms:aarch64_linux -c opt --copt=-fpic //cyber:install -- ${CYBER_INSTALL_PREFIX}/cyber --pre_clean
+
+bazel run --platforms=@gcc_toolchain//platforms:aarch64_linux -c opt --copt=-fpic //cyber:install_src -- ${CYBER_INSTALL_PREFIX}/cyber
 ```
 
 #### external
